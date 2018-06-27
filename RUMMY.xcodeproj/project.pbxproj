@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		76129E6B20E42D6A00687EF2 /* RUMMY */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RUMMY; sourceTree = BUILT_PRODUCTS_DIR; };
 		76129E6E20E42D6A00687EF2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		766BBBC420E42E3D0071157F /* functii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = functii.h; sourceTree = "<group>"; };
+		766BBBC520E42E4F0071157F /* structuri.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = structuri.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,8 @@
 		76129E6D20E42D6A00687EF2 /* RUMMY */ = {
 			isa = PBXGroup;
 			children = (
+				766BBBC520E42E4F0071157F /* structuri.h */,
+				766BBBC420E42E3D0071157F /* functii.h */,
 				76129E6E20E42D6A00687EF2 /* main.c */,
 			);
 			path = RUMMY;

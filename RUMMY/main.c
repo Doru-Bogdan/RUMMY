@@ -1,15 +1,23 @@
-//
-//  main.c
-//  RUMMY
-//
-//  Created by Doru Bogdan Mancila on 27/06/2018.
-//  Copyright © 2018 Doru Bogdan Mancila. All rights reserved.
-//
-
 #include <stdio.h>
+#include <stdlib.h>
+//#include <windows.h>
+#include "structuri.h"
+#include "functii.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
+
+int main()
+{
+    int nrpl;
+    v = (int*)malloc(5 * sizeof(int));
+    wellcome();
+    printf("Scrieti numarul de jucatori: ");
+    scanf("%d", &nrpl);
+    inregistrare(nrpl);
+    creeare_pachet();
+    amestecare();
+    gameplay(nrpl);
+    afis(nrpl);
+    fisier(nrpl);
+
+return 0;
 }
